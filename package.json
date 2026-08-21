@@ -1,0 +1,32 @@
+{
+  "name": "utm-gsheets",
+  "version": "0.1.0",
+  "description": "Google Sheets tools for DeepSeek Harness (Cordis plugin): meta, list, read, write, append, create, clear. Reuses an existing OAuth token (path set at deploy time via config.token_path or the GSHEETS_TOKEN_PATH env var) with automatic refresh via the refresh token.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/run-tests.mjs"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.7"
+  },
+  "keywords": [
+    "dsh",
+    "cordis",
+    "google",
+    "sheets",
+    "gsheets",
+    "api",
+    "plugin"
+  ],
+  "license": "MIT"
+}
